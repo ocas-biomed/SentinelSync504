@@ -8,12 +8,12 @@ The design for Sentinel Sync will allow healthcare professionals such as doctors
 
 - User registration and login
 - Role-based form input (Nurse, Physician, Pharmacist, Other)
-- Event type dropdown and freetext option for "Other"
+- Event detail reporting form
+- user ID is not collected during report submission for anyonymity
+- Confirmation page following successful data collection
 - Data storage using SQLite
-- Confirmation page for successful transmissions
-- Admin-only dashboard to view reports to enhance anonymity
-- Chart.js integration for visualizations
-- Utilizes Bootstrap for responsive UI design
+- Administrator dashboard to view reports for data analysis
+- Bootstrap for responsive UI design
 
 ## Technologies Used
 
@@ -22,5 +22,5 @@ The design for Sentinel Sync will allow healthcare professionals such as doctors
 - SQLite3
 - EJS
 - Bootstrap 5
-- Chart.js (for dashboard visualization)
+
 
